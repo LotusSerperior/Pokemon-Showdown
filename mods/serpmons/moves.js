@@ -19,7 +19,7 @@ exports.BattleMovedex = {
 		zMovePower: 140,
 		contestType: "Cool",
 	},
-	"manipulatiingblow": {
+	"manipulatingblow": {
 		num: 10003,
 		accuracy: 100,
 		basePower: 80,
