@@ -3,7 +3,7 @@
 exports.BattlePokedex = {
   combzaprior: {
 		num: 10008,
-		species: "Electric Warrior",
+		species: "Combzaprior",
 		types: ["Electric", "Fighting"],
 		baseStats: {hp: 83, atk: 45, def: 79, spa: 130, spd: 100, spe: 92},
 		abilities: {0: "Lightningrod", 1: "Galvanise", H: "Combat Artist"},
