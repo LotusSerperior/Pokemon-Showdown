@@ -1216,4 +1216,12 @@ exports.Formats = [
 		debug: true,
 		ruleset: ['Pokemon', 'HP Percentage Mod', 'Cancel Mod'],
 	},
+	{
+		name: "Serpmons",
+		desc: ["Weed"],
+
+		mod: 'serpmons',
+		searchShow: true,
+		ruleset: ['OU'],
+	},
 ];
