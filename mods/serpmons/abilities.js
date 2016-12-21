@@ -43,4 +43,18 @@ exports.BattleAbilities = {
 		rating: 4,
 		num: 10200,
 	},
+	"testmabob": {
+		shortDesc: "Inverse",
+		onNegateImmunity: false,
+		onEffectiveness: function (typeMod, target, type, move) {
+			// The effectiveness of Freeze Dry on Water isn't reverted
+			if (move && move.id === 'freezedry' && type === 'Water') return;
+			if (move && !this.getImmunity(move, type)) return 1;
+			return -typeMod;
+		},
+		id: "testmabob",
+		name: "Testmabob",
+		rating: 4,
+		num: 10201,
+	},
 };
