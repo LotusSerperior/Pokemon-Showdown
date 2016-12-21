@@ -61,4 +61,10 @@ combzaprior: {learnset: {
 		wildcharge: ["7M"],
 		zapcannon: ["7L61"],
 	}},
+testee: {learnset: {
+		icebeam: ["7M"],
+		recover: ["7L1"],
+		iceshard: ["7L1"],
+		brickbreak: ["7M"],
+	}},
   };
